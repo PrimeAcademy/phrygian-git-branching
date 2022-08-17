@@ -9,15 +9,18 @@
 - Add some styling to header and li
 
 
-## Git Commands
+## Git Branching Cheatsheet
 
-Every time
-Make sure the code on your computer is up to the latest version on GitHub by switching to main and pulling down the changes.
+### Create a feature branch
 
-git checkout main
-git pull
-Create a branch and switch to that branch.
+- `git checkout main` - make sure you're on the main branch
+- `git pull origin main` - make sure you're up to date
+- `git branch feature-NAME` - Create a branch (replace **NAME** with your feature e.g. `feature-add-footer`)
+- `git branch` - Display the branch you're currently on
+- `git checkout feature-NAME` - Switch to the branch
 
-git checkout main
-git branch feature-NAME
-git checkout feature-NAME
+### Commit one or more times
+
+- `git add .`
+- `git commit -m "MESSAGE"`
+- `git push origin feature-NAME`
