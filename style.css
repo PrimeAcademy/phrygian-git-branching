@@ -36,6 +36,10 @@ td {
     color: cornflowerblue;
     
 }
+button {
+    background-color: #008CBA;
+    color: white;
+}
 /* Styling for a footer - Mark */
 footer {
     text-align: center;
