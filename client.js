@@ -15,6 +15,5 @@ function addStudent() {
         <ul>
         <li>${newStudent}</li>
         </ul>
-        `
-    );
+    `);
 }
