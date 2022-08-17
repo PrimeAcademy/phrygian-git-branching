@@ -22,7 +22,11 @@ td {
 }
 
 /* Styling for a li - Alex S */
-
+#student-list {
+    text-decoration: double;
+    color: cornflowerblue;
+    
+}
 /* Styling for a footer - Mark */
 
 /* Styling for a header - Holly */
