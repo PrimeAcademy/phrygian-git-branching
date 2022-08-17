@@ -1,11 +1,32 @@
+/* Added style to html and body -Aubree */
+html,body{
+    margin: 0;
+    padding:0;
+    font-family: 'Righteous', cursive;
+    background-color: #9DB6BB;
+}
+
+
 h1 {
     color: brown;
 }
 
 /* Styling for a table - Kyle */
+table,
+th,
+td {
+    border: 5px solid;
+    width: 75%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
 
 /* Styling for a li - Alex S */
-
+#student-list {
+    text-decoration: double;
+    color: cornflowerblue;
+    
+}
 /* Styling for a footer - Mark */
 
 /* Styling for a header - Holly */
