@@ -1,11 +1,50 @@
+/* Added style to html and body -Aubree */
+html,body{
+    margin: 0;
+    padding:0;
+    font-family: 'Righteous', cursive;
+    background-color: #9DB6BB;
+}
+
+
 h1 {
     color: brown;
+    font-size: 35px;/*alex C*/
+}
+
+/* Styling for a button - Bryn */
+
+button {
+    background-color: #46988E;
+    border-color: #46988E;
+    font-family: 'Fira Code', monospace;
 }
 
 /* Styling for a table - Kyle */
+table,
+th,
+td {
+    border: 5px solid;
+    width: 75%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
 
 /* Styling for a li - Alex S */
-
+#student-list {
+    text-decoration: double;
+    color: cornflowerblue;
+    
+}
 /* Styling for a footer - Mark */
-
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #934caf;
+    color: #e3e347;
+    text-shadow: 2px 2px 10px #e3e347;
+}
 /* Styling for a header - Holly */
