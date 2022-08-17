@@ -12,6 +12,14 @@ h1 {
 }
 
 /* Styling for a table - Kyle */
+table,
+th,
+td {
+    border: 5px solid;
+    width: 75%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
 
 /* Styling for a li - Alex S */
 
