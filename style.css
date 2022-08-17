@@ -2,6 +2,14 @@ h1 {
     color: brown;
 }
 
+/* Styling for a button - Bryn */
+
+button {
+    background-color: #46988E;
+    border-color: #46988E;
+    font-family: 'Fira Code', monospace;
+}
+
 /* Styling for a table - Kyle */
 
 /* Styling for a li - Alex S */
